@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   cowsay:
-    runs-on: my-runner
+    runs-on: macOS
     container: npalm/cowsay
 
     steps:
