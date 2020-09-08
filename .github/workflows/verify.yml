@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   cowsay:
-    runs-on: self-hosted
+    runs-on: my-runner
     container: npalm/cowsay
 
     steps:
